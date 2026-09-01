@@ -1,0 +1,21 @@
+{
+  "name": "relay-api-rate-limiter",
+  "version": "1.0.0",
+  "description": "Stateless distributed rate limiter service and test harness for RelayAPI",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "cluster": "node src/cluster-runner.js",
+    "harness": "node src/harness.js",
+    "test": "node src/harness.js"
+  },
+  "keywords": [
+    "rate-limiter",
+    "sliding-window",
+    "distributed-systems",
+    "relay-api"
+  ],
+  "author": "Shreyash101728",
+  "license": "MIT"
+}
